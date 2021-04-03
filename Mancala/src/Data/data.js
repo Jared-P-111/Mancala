@@ -7,7 +7,7 @@ const mancalaBoardData = [
   {
     player: 1,
     id: 1,
-    beadCount: 4,
+    beadCount: 2,
   },
   {
     player: 1,
@@ -22,12 +22,12 @@ const mancalaBoardData = [
   {
     player: 1,
     id: 4,
-    beadCount: 4,
+    beadCount: 1,
   },
   {
     player: 1,
     id: 5,
-    beadCount: 4,
+    beadCount: 2,
   },
   {
     player: 'mancala1',
@@ -42,7 +42,7 @@ const mancalaBoardData = [
   {
     player: 2,
     id: 8,
-    beadCount: 4,
+    beadCount: 2,
   },
   {
     player: 2,

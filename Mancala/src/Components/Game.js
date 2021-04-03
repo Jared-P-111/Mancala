@@ -8,11 +8,15 @@ class Game extends Component {
 
     const p1cupsRendered = boardData
       .filter((curPlayer) => curPlayer.player === 1)
-      .map((cup, index) => <Cup key={index} playerType="player1" boardData={boardData} />);
+      .map((cup, index) => (
+        <Cup key={index} curCupBeads={cup.beadCount} playerType="player1" boardData={boardData} />
+      ));
 
     const p2cupsRendered = boardData
       .filter((curPlayer) => curPlayer.player === 2)
-      .map((cup, index) => <Cup key={index} playerType="player2" boardData={boardData} />);
+      .map((cup, index) => (
+        <Cup key={index} curCupBeads={cup.beadCount} playerType="player2" boardData={boardData} />
+      ));
 
     return (
       <div className="gameBackDrop">
