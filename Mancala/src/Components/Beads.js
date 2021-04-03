@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Beads = () => {
+const Bead = () => {
   return <div className="beads"></div>;
 };
 
-export default Beads;
+export default Bead;
