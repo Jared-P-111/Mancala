@@ -19,8 +19,16 @@ const mancalaBoardData = [
     id: 3,
     beadCount: 4,
   },
-  { player: 1, id: 4, beadCount: 4 },
-  { player: 1, id: 5, beadCount: 4 },
+  {
+    player: 1,
+    id: 4,
+    beadCount: 4,
+  },
+  {
+    player: 1,
+    id: 5,
+    beadCount: 4,
+  },
   {
     player: 'mancala1',
     id: 6,

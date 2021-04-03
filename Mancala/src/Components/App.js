@@ -18,22 +18,7 @@ class App extends Component {
     return beadCount.map(() => <Beads />);
   };
 
-  renderPlayerOneCups = () => {
-    const player1cups = this.state.mancalaBoardData
-      .filter((player) => player.player === 1)
-      .map((cup, index) => <Cup key={index} styleSheet="player1" />);
-    return player1cups;
-  };
-
-  renderPlayerTwoCups = () => {
-    const player2cups = this.state.mancalaBoardData
-      .filter((player) => player.player === 2)
-      .map((cup, index) => <Cup key={index} styleSheet="player2" />);
-    return player2cups;
-  };
-
   render() {
-    this.renderPlayerOneCups();
     return (
       <>
         <div className="headerContainer">

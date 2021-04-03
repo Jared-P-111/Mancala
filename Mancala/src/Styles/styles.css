@@ -63,6 +63,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   justify-items: center;
+  flex-direction: row-reverse;
   padding: 10px;
 }
 
